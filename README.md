@@ -4,19 +4,9 @@
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Shell Script
 - Linux
 - Packet Tracer
 - Ferramentas de redes
-
----
-
-## 🚀 Como Executar
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/marcelod6427/ARC3---TMSI
-cd ARC3
