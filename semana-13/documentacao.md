@@ -1,8 +1,7 @@
-# Histórico de Configuração: Servidor de Logs Centralizado (rsyslog)
+# Histórico de Configuração: Servidor de Logs Centralizado
+José Geremias bv3060322
 
-Grupo: Antônio Mariano (BV3054195) e Marcelo de Lima (BV3054543)
-
-Disciplina: ARC3
+Disciplina: ARC
 
 Professor: Gaio
 
@@ -14,7 +13,7 @@ Professor: Gaio
 
 ---
 
-## 2. Configuração do Zero (Cenário de Rede)
+## 2. Configuração do Zero
 
 **Usuário:** Informou que não havia nada configurado e que as máquinas estavam na mesma rede.
 
@@ -47,15 +46,12 @@ Professor: Gaio
 sudo chown -R syslog:adm /var/log/clientes
 sudo chmod -R 775 /var/log/clientes
 
-```
-
 * **Solução de Rate-Limit (Remover limite de mensagens):**
 Adição das linhas no `rsyslog.conf`:
 
 ```text
     $SystemLogRateLimitInterval 0
     $SystemLogRateLimitBurst 0
-    ```
 
 ---
 
@@ -75,7 +71,3 @@ Adição das linhas no `rsyslog.conf`:
 **No Servidor (Monitorar):**
 `sudo tail -f /var/log/clientes/VM-LAB-UBUNTU/TESTE_REDE.log`
 
---- 
-*Fim do registro da conversa.*
-
-```
