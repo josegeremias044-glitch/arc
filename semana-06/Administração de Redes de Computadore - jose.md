@@ -1,7 +1,5 @@
 # Administração de Redes de Computadore - Prof.: Gaio - TMSI - 3° Semestre
 
-Marcelo de Lima G. Filho
-
 # Atividade de Gerencimiento de Sistema Linux
 
 # Comandos:
